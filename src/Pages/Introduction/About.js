@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const AboutPage = () => (
+export default () => (
   <Fragment>
     <Text large>James Formica</Text>
     <Text mono>UI &lt;<Span primary>Developer</Span>/&gt;</Text>
@@ -10,5 +10,3 @@ const AboutPage = () => (
     <Text small>Lego, sloths, bananas, guitar, and... canvas</Text>
   </Fragment>
 );
-
-export default AboutPage;

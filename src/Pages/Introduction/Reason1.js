@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const Reason1Page = () => (
+export default () => (
   <Fragment>
     <Text mono>&lt;One/&gt;</Text>
     <br/>
@@ -10,5 +10,3 @@ const Reason1Page = () => (
     <Text>you <Span primary>expect</Span> them to...</Text>
   </Fragment>
 );
-
-export default Reason1Page;

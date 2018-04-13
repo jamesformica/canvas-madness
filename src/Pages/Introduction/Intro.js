@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const IntroPage = () => (
+export default () => (
   <Fragment>
     <Text large>
       <Span mono>
@@ -13,5 +13,3 @@ const IntroPage = () => (
       &nbsp;Madness</Text>
   </Fragment>
 );
-
-export default IntroPage;

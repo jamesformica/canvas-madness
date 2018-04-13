@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 
-import Text from '../Common/Text/Text';
-import CodeSection from '../Common/CodeSection/CodeSection';
+import Text from '../../Common/Text/Text';
+import CodeSection from '../../Common/CodeSection/CodeSection';
 
-const BluryLineProblemPage = () => (
+export default () => (
   <Fragment>
     <Text heavy>THE SOLUTION:</Text>
     <CodeSection>
@@ -22,5 +22,3 @@ const BluryLineProblemPage = () => (
     </CodeSection>
   </Fragment>
 );
-
-export default BluryLineProblemPage;

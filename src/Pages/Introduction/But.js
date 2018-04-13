@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const ButPage = () => (
+export default () => (
   <Fragment>
-    <Text large>&lt;<Span primary>However</Span>/&gt;</Text>
+    <Text mono>&lt;However/&gt;</Text>
     <br/>
     <Text className="fragment">
       What makes canvas <Span primary>difficult</Span> is what
@@ -12,5 +12,3 @@ const ButPage = () => (
     </Text>
   </Fragment>
 );
-
-export default ButPage;

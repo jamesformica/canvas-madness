@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const GithubStatsPage = () => (
+export default () => (
   <Fragment>
     <Text small>GitHub stats*:</Text>
     <Text className="fragment">
@@ -23,5 +23,3 @@ const GithubStatsPage = () => (
     </Text>
   </Fragment>
 );
-
-export default GithubStatsPage;

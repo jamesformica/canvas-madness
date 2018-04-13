@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const Reason3Page = () => (
+export default () => (
   <Fragment>
     <Text mono>&lt;Three/&gt;</Text>
     <br/>
@@ -10,5 +10,3 @@ const Reason3Page = () => (
     <Text><Span primary>ridiculous</Span> and make no sense.</Text>
   </Fragment>
 );
-
-export default Reason3Page;

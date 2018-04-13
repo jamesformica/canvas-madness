@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const AdmissionPage = () => (
+export default () => (
   <Fragment>
-    <Text large>&lt;<Span primary>Soooo</Span>/&gt;</Text>
+    <Text mono>&lt;Soooo/&gt;</Text>
+    <br />
     <Text>Making a canvas app is going to be a&nbsp;
       <Span primary>giant pain</Span> in the ass.
     </Text>
   </Fragment>
 );
-
-export default AdmissionPage;

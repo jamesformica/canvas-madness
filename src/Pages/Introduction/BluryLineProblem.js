@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Text, { Span } from '../Common/Text/Text';
+import Text, { Span } from '../../Common/Text/Text';
 
-const BluryLineProblemPage = () => (
+export default () => (
   <Fragment>
     <Text heavy>THE PROBLEM:</Text>
     <br />
@@ -12,5 +12,3 @@ const BluryLineProblemPage = () => (
     </Text>
   </Fragment>
 );
-
-export default BluryLineProblemPage;

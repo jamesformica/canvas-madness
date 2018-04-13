@@ -1,29 +1,22 @@
-export { default as BlankCanvasPage } from './BlankCanvasPage';
-export { default as IntroPage } from './IntroPage';
-export { default as AboutPage } from './AboutPage';
-export { default as DontLikePage } from './DontLikePage';
-export { default as GitHubStatePage } from './GithubStatsPage';
-export { default as Reason1Page } from './Reason1Page';
-export { default as BrokenAnimationPage } from './BrokenAnimationPage';
-export { default as FixedAnimationPage } from './FixedAnimationPage';
-export { default as Reason2Page } from './Reason2Page';
-export { default as BrokenClickHandlerPage } from './BrokenClickHandlerPage';
-export { default as FixedClickHandlerPage } from './FixedClickHandlerPage';
-export { default as Reason3Page } from './Reason3Page';
-export { default as BluryLineProblemPage } from './BluryLineProblemPage';
-export { default as BluryLineSolutionPage } from './BluryLineSolutionPage';
-export { default as AdmissionPage } from './AdmissionPage';
-export { default as ButPage } from './ButPage';
-// sooo... canvas is a bit 'special'
-// - it's not very user friendly and you have to do a lot of work
-// BUT
-// what makes it bad, is also it's strength
-// - the possibilities are infinite
+export { default as Intro } from './Introduction/Intro';
+export { default as About } from './Introduction/About';
+export { default as DontLike } from './Introduction/DontLike';
+export { default as GitHubState } from './Introduction/GithubStats';
+export { default as Reason1 } from './Introduction/Reason1';
+export { default as BrokenAnimation } from './Introduction/BrokenAnimation';
+export { default as FixedAnimation } from './Introduction/FixedAnimation';
+export { default as Reason2 } from './Introduction/Reason2';
+export { default as BrokenClickHandler } from './Introduction/BrokenClickHandler';
+export { default as FixedClickHandler } from './Introduction/FixedClickHandler';
+export { default as Reason3 } from './Introduction/Reason3';
+export { default as BluryLineProblem } from './Introduction/BluryLineProblem';
+export { default as BluryLineSolution } from './Introduction/BluryLineSolution';
+export { default as Admission } from './Introduction/Admission';
+export { default as But } from './Introduction/But';
+export { default as BlankCanvas } from './Introduction/BlankCanvas';
 
-// - lineart
-
-// sketchly
-
-// moodly
-
-// trains
+export { default as Demos } from './Demos/Demos';
+export { default as LineartIntro } from './Demos/LineartIntro';
+export { default as MoodlyIntro } from './Demos/MoodlyIntro';
+export { default as SketchlyIntro } from './Demos/SketchlyIntro';
+export { default as TrainsIntro } from './Demos/TrainsIntro';
