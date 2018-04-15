@@ -1,7 +1,9 @@
+export { default as MoodlyDemo } from './Demos/MoodlyDemo';
+
 export { default as Intro } from './Introduction/Intro';
 export { default as About } from './Introduction/About';
 export { default as DontLike } from './Introduction/DontLike';
-export { default as GitHubState } from './Introduction/GithubStats';
+export { default as GitHubStats } from './Introduction/GithubStats';
 export { default as Reason1 } from './Introduction/Reason1';
 export { default as BrokenAnimation } from './Introduction/BrokenAnimation';
 export { default as FixedAnimation } from './Introduction/FixedAnimation';
@@ -20,3 +22,10 @@ export { default as LineartIntro } from './Demos/LineartIntro';
 export { default as MoodlyIntro } from './Demos/MoodlyIntro';
 export { default as SketchlyIntro } from './Demos/SketchlyIntro';
 export { default as TrainsIntro } from './Demos/TrainsIntro';
+
+export { default as WrappingUp } from './WrappingUp/WrappingUp';
+export { default as Cons } from './WrappingUp/Cons';
+export { default as Pros } from './WrappingUp/Pros';
+export { default as WhatsNextForMe } from './WrappingUp/WhatsNextForMe';
+export { default as WhatsNextForYou } from './WrappingUp/WhatsNextForYou';
+export { default as Final } from './WrappingUp/Final';

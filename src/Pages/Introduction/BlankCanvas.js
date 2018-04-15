@@ -9,7 +9,7 @@ export default () => (
     </Text>
     <br />
     <Text className="fragment" large>
-     <span role="img" aria-label="wink" large>😉</span>
+     <span role="img" aria-label="wink">😉</span>
     </Text>
   </Fragment>
 );
