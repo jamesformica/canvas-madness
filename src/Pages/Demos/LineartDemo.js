@@ -20,7 +20,7 @@ export default () => (
     </Text>
     <br />
     <Text className="fragment">
-      <LinkSection text="lineart" link="https://github.com/jamesformica/lineart" />
+      <LinkSection text="lineart" link="https://jamesformica.github.io/lineart/" />
     </Text>
   </Fragment>
 );
