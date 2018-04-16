@@ -1,5 +1,3 @@
-export { default as MoodlyDemo } from './Demos/MoodlyDemo';
-
 export { default as Intro } from './Introduction/Intro';
 export { default as About } from './Introduction/About';
 export { default as DontLike } from './Introduction/DontLike';
@@ -19,9 +17,13 @@ export { default as BlankCanvas } from './Introduction/BlankCanvas';
 
 export { default as Demos } from './Demos/Demos';
 export { default as LineartIntro } from './Demos/LineartIntro';
+export { default as LineartDemo } from './Demos/LineartDemo';
 export { default as MoodlyIntro } from './Demos/MoodlyIntro';
+export { default as MoodlyDemo } from './Demos/MoodlyDemo';
 export { default as SketchlyIntro } from './Demos/SketchlyIntro';
+export { default as SketchlyDemo } from './Demos/SketchlyDemo';
 export { default as TrainsIntro } from './Demos/TrainsIntro';
+export { default as TrainsDemo } from './Demos/TrainsDemo';
 
 export { default as WrappingUp } from './WrappingUp/WrappingUp';
 export { default as Cons } from './WrappingUp/Cons';

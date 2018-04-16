@@ -1,0 +1,7 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  text-transform: capitalize;
+}

@@ -5,22 +5,22 @@ import LinkSection from '../../Common/LinkSection/LinkSection';
 
 export default () => (
   <Fragment>
-    <Text small>Moodly</Text>
+    <Text small>Lineart</Text>
     <Text className="fragment">
       <Span strong>Canvasness ➡&nbsp;</Span>
       <Span primary>100%</Span>
     </Text>
     <Text className="fragment">
       <Span strong>Interaction ➡&nbsp;</Span>
-      <Span primary>voice</Span>
+      <Span primary>clicking</Span>
     </Text>
     <Text className="fragment">
       <Span strong>Pointlessness ➡&nbsp;</Span>
-      <Span primary>6.5/10</Span>
+      <Span primary>10/10</Span>
     </Text>
     <br />
     <Text className="fragment">
-      <LinkSection text="moodly" link="https://github.com/jamesformica/moodly" />
+      <LinkSection text="lineart" link="https://github.com/jamesformica/lineart" />
     </Text>
   </Fragment>
 );
