@@ -9,7 +9,9 @@ export default () => (
     <Text className="fragment">
       Build something that you once thought was
       <br />
-      <Span large primary>impossible</Span>
+      <Span large primary className="fragment">
+        impossible
+      </Span>
     </Text>
   </Fragment>
 );
