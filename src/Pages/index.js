@@ -1,7 +1,7 @@
 export { default as Intro } from './Introduction/Intro';
 export { default as About } from './Introduction/About';
-export { default as DontLike } from './Introduction/DontLike';
 export { default as GitHubStats } from './Introduction/GithubStats';
+export { default as DontLike } from './Introduction/DontLike';
 export { default as Reason1 } from './Introduction/Reason1';
 export { default as BrokenAnimation } from './Introduction/BrokenAnimation';
 export { default as FixedAnimation } from './Introduction/FixedAnimation';
